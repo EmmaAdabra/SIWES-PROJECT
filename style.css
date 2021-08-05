@@ -17,11 +17,11 @@ h3{
 }
 
 span.first{
-  color:  #FF5049;
+  color:  #9b1a16;
 }
 
-span.second {
-  color: #28B9B5;
+span.h3-title {
+  color: #0e726f;
 }
 .change-text{
   color: #f8fcfcbd !important;
@@ -37,7 +37,7 @@ span.second {
 
 .section {
 
-  max-height: 2000px;
+  max-height: inherit;
   /* background-color: rgba(0, 0, 0, 0.6); */
   /* background-color: rgb(49, 62, 83); */
   background-color: rgba(4, 11, 32, 0.952);
@@ -45,6 +45,7 @@ span.second {
   border-radius: 2%;
   max-width: 700px;
   margin: auto;
+  
   
 }
 
@@ -84,6 +85,41 @@ span.second {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 728px) {
+  .inputCity{
+    width: 70% !important;
+    margin: 1rem 3rem;
+  }
+
+  .button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+  }
+
+  h3{
+    font-size: 32px;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  h3 span{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .section{
+    max-height: 4000px;
+  }
+
+  #warn{
+    display: block;
+  }
 }
 
 #weather-forecast {
@@ -139,6 +175,9 @@ span.second {
   font-weight: bold;
 }
 
+.err-city{
+  display:block !important;
+}
 /* .test{
   height: inherit;
 
