@@ -17,11 +17,11 @@ h3{
 }
 
 span.first{
-  color:  #9b1a16;
+  color: rgb(4, 4, 43);
 }
 
 span.h3-title {
-  color: #0e726f;
+  color: #f0e1dab4;
 }
 .change-text{
   color: #f8fcfcbd !important;
@@ -36,12 +36,9 @@ span.h3-title {
 
 
 .section {
-
   max-height: inherit;
-  /* background-color: rgba(0, 0, 0, 0.6); */
-  /* background-color: rgb(49, 62, 83); */
-  background-color: rgba(4, 11, 32, 0.952);
-  margin: 0 3%;
+  /* background-color: rgba(4, 11, 32, 0.952); */
+  background-color:rgb(32, 121, 209);
   border-radius: 2%;
   max-width: 700px;
   margin: auto;
@@ -129,13 +126,15 @@ span.h3-title {
 }
 
 #weather-forecast.show {
-  color: aliceblue;
+  color: rgb(11, 16, 20);
   margin-top: 12%;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   max-width: 900px;
   border-radius: 20px;
+  margin: 12% 3% 3% 3%;
+  background-color: #f3f3f3c9;
   /* padding-bottom: 5px; */
   /* margin: 0 auto; */
   
